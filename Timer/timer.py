@@ -6,9 +6,11 @@ Created on Sat Sep  5 12:04:40 2020
 
 This is a Timer for Algorythims and Data Structure class
 
-I have forgotten everything and had to use the internet to get started
-
-Suppose that is wha everyone does
+This is a Timer that allows you to interact with to start
+ and then interact with a second time to stop.
+ 
+Will then take the start and end times and find the difference
+ resulting in the total time that the program was running.
 """
 
 import time
