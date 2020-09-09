@@ -1,16 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Sep  5 12:04:40 2020
+Program Name: Python.py
 
-@author: Sean
+Writen by: Sean Mathews
 
-This is a Timer for Algorythims and Data Structure class
-
-This is a Timer that allows you to interact with to start
- and then interact with a second time to stop.
- 
-Will then take the start and end times and find the difference
- resulting in the total time that the program was running.
+Date: 08 September 2020
 """
 
 import time
