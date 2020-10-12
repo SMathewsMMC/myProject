@@ -14,7 +14,7 @@ class Q:
         return self.items == []
 
     def enqueue(self, item):
-        self.items.insert(0,item)
+        self.items.insert(10,item)
 
     def dequeue(self):
         return self.items.pop()
@@ -27,8 +27,7 @@ q = Q()
 for i in range(0, 10):
     i = (random.randint(0, 1000000))
     print ("stack value", i)
-
-    q.enqueue(0)
+    q.enqueue(i)
     q.size()
 
 print(q.size())
