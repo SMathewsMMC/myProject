@@ -1,0 +1,24 @@
+0        1         2         3         4         5         6         7         8
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+                                                                                
+ ProjectName: The Enigma Machine                           Author: Sean Mathews 
+ Information Screen                                          Date: Oct 27, 2020 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                   			    
+          The Engigma Machine was a tool used during World War II               
+          for encrypting and ecrypting sensetive information.                   
+
+          This tool serves as a simple version of this device and               
+          allow you to encrypt and decrypt messages that you share              
+          with others using the this same application.                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Press any key to continue                                                      
+                                                                                

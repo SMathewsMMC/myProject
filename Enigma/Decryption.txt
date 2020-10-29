@@ -1,0 +1,24 @@
+0        1         2         3         4         5         6         7         8
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+                                                                                
+ Decryption Screen                                           Date: Oct 27, 2020 
+ ProjectName: The Enigma Machine                           Author: Sean Mathews 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+               Select the file that you wish to have Decrypted                   
+                                                                                
+                                                                                
+                                                                               
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Press any key to continue                                                      
+                                                                                

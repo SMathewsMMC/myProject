@@ -1,0 +1,25 @@
+'''
+0         1         2         3         4         5         6         7         8
+012345678901234567890123456789012345678901234567890123456789012345678901234567890
+
+   ProjectName:  How_Do_I_Do_A_Program                                                
+   ProgramName:  getFileNames.py                                                 
+   Author:       Sean Mathews                                    
+   Date:         TodaysDate                                          
+   Synopsis:
+          This is where you put a short description of what it is that this
+          program will do.
+
+   def function(): This is where the file to be used it located.
+   def A():mty
+   def A():mty
+   def A():mty
+   def A():mty
+   def A():mty
+   def A():mty
+   
+'''
+
+
+def function():
+    return 'C:\\MyProgramFiles\\FlowerBox.py'
