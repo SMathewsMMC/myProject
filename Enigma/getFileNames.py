@@ -9,29 +9,32 @@
    Synopsis:
        This set of programs are the various assigments done in CIS-210M
 
-   def getTestMenu():Returns TestMenu.py to be used as the MainScreen.
-   def getTimer():Returns Timer.py program that is time
-   def getRandGen():Returns the Random Number Generator
-   def getStack():Returns a program that creates a Stack
-   def A():mty
-   def A():mty
+   def getWelcome():Returns Welcome.txt to be used as the introduction screen.
+   def getMainMenu():Returns MainMenu.txt used as the main page.
+   def getInformation():Returns the Information page about this program
+   def getEncryption():Returns a page for encrypting your text file.
+   def getDecryption():Returns a page for decrypting your text file.
+   def getGoodbye(): Goodbye screen after Encrypting/Decrypting/Quitting.
    def A():mty
    def A():mty
    
 '''
 #A function returned something
 
-def getTestMenu():
-    return 'C:\\MyProgramFiles\\TestMenu.txt'
-
-def getTimer():
-    return 'C:\\MyProgramFiles\\Timer.txt'
-
-def getRandGen():
-    return 'C:\MyProgramFiles\\RandGen.txt'
-
-def getStack():
-    return 'C:\\MyProgramFiles\\Stack.txt'
+def getWelcome():
+    return 'C:\\MyProgramFiles\\Enigma\\Welcome.txt'
 
 def getMainMenu():
-    return 'C:\\MyProgramFiles\\MainMenu.txt'
+    return 'C:\\MyProgramFiles\\Enigma\\MainMenu.txt'
+
+def getInformation():
+    return 'C:\\MyProgramFiles\\Enigma\\Information.txt'
+
+def getEncryption():
+    return 'C:\\MyProgramFiles\\Enigma\\Encryption.txt'
+
+def getDecryption():
+    return 'C:\\MyProgramFiles\\Enigma\\Decryption.txt'
+
+def getGoodbye():
+    return 'C:\\MyProgramFiles\\Enigma\\Goodbye.txt'

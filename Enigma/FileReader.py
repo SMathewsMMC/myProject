@@ -18,23 +18,17 @@
 
 '''
 #import testing as test
-#import Fixes as fx
+import Fixes as fx
     
 def readTheFileIn(fileName):
     fO = open(fileName,"r")
     theList = fO.readlines()
     fO.close()
     theList = fx.crlfR(theList)
-    '''
-    for i in range(0, 5):
-        test.writeOutAString(theList[i])
-        print(theList[i])
-    '''
-    #input("Press Any Key To Continue")
-    return theList   
     
-        
-#main for testing
+    for i in range(0, 24):
+        #test.writeOutAString(theList[i])
+        print(theList[i])
 
-#readTheFileIn("MasterScreen.txt")
+    return theList   
 

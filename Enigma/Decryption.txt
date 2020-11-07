@@ -1,8 +1,8 @@
 0        1         2         3         4         5         6         7         8
 01234567890123456789012345678901234567890123456789012345678901234567890123456789
                                                                                 
- Decryption Screen                                           Date: Oct 27, 2020 
- ProjectName: The Enigma Machine                           Author: Sean Mathews 
+ ProjectName: The Enigma Machine                          Author: Sean Mathews  
+ Decryption Screen                                          Date: Oct 27, 2020  
                                                                                 
                                                                                 
                                                                                 
@@ -10,15 +10,15 @@
                                                                                 
                                                                                 
                                                                                 
-               Select the file that you wish to have Decrypted                   
                                                                                 
                                                                                 
-                                                                               
-                                                                                
-                                                                                
+                  Please select the file you with to Decrypt                    
                                                                                 
                                                                                 
                                                                                 
                                                                                 
- Press any key to continue                                                      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
                                                                                 

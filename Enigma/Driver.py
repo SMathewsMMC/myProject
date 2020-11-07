@@ -18,12 +18,7 @@
 import FileReader as fr
 import getFileNames as gfn
 import os # To clear the cmd line screen
-import Welcome
-import MainMenu
-import Information
-import Encryption
-import Decrpytion
-import os # To clear the cmd line screen
+
 
 
 def printOutAList(theList, startCt, endCt): #process or procedure to print a list.
@@ -32,27 +27,75 @@ def printOutAList(theList, startCt, endCt): #process or procedure to print a lis
         print(theList[i])
 
 
-def convertAValue(menu, theList):
+def convertAValue(welcome, theList):
     pass
 
 
 def main():
-    welcome = fr.readTheFileIn(gfn.getWelcome())
-    mm = fr.readTheFileIn(gfn.getMainMenu())
-    info = fr.readTheFileIn(gfn.getInformation())
-    encrypt = fr.readTheFileIn(gfn.getEncryption())
-    decrypt = fr.readTheFileIn(gfn.getDecryption())
-    os.system("cls")
-    input(welcome)
-    os.system("cls")
-    input(mm)
-    os.system("cls")
-    input(info)
-    os.system("cls")
-    input(encrypt)
-    os.system("cls")
-    input(decrypt)
 
+    returntomain = True
+    uinput = ""
+    
+    os.system("cls")
+    fr.readTheFileIn(gfn.getWelcome())
+    uinput = input("")
+
+    while returntomain == True:
+        os.system("cls")
+        fr.readTheFileIn(gfn.getMainMenu())
+        returntomain = False
+        uinput = input("")
+       
+        if uinput == "A":
+            os.system("cls")
+            fr.readTheFileIn(gfn.getInformation())
+            print("Press Enter for main menu")
+            uinput= input("")
+            returntomain = True
+            
+        elif uinput == "B":
+            os.system("cls")
+            fr.readTheFileIn(gfn.getEncryption())
+            print("Press Enter for main menu")
+            uinput= input("")
+            returntomain = True
+        
+        elif uinput == "C":
+            os.system("cls")
+            fr.readTheFileIn(gfn.getDecryption())
+            print("Press Enter for main menu")
+            uinput= input("")
+            returntomain = True
+            
+        elif uinput == "Q":
+            os.system("cls")
+            fr.readTheFileIn(gfn.getGoodbye())
+            print("Press Enter to Quit")
+            uinput= input("")
+            print("Goodbye")
+
+
+
+"""
+    while fr.readTheFileIn(gfn.getWelcome()):
+        input == ("> ")
+    if input == "A":
+        os.system("cls")
+        info = fr.readTheFileIn(gfn.getInformation())
+    elif input == "M":
+        os.system("cls")
+        mm = fr.readTheFileIn(gfn.getMainMenu())
+    elif input == "B":
+        os.system("cls")
+        encrypt = fr.readTheFileIn(gfn.getEncryption())
+    elif input == "C":
+        os.system("cls")
+        decrypt = fr.readTheFileIn(gfn.getDecryption())
+    elif input == "Q":
+        os.system("cls")
+        goodbye = fr.readTheFileIn(gfn.getGoodbye())
+        
+"""
     #print(menu)
     #printOutAList(menu, 1, len(menu))
 
